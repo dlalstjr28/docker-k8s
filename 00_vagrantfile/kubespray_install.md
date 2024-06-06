@@ -214,6 +214,8 @@ ansible-playbook -i inventory/mycluster/inventory.ini cluster.yml -e kube_versio
 
 > 호스트 시스템 사양, VM 개수, VM 리소스 및 네트워크 성능에 따라 15~60분 소요
 
+> 2024년 06월 06일 기준으로는 kubespary v2.25 버전일 경우 기본 kubernetes 버전은 1.29이지만, kube-version을 지정하여 사용 시 오류가 발생하므로 이점 유의.
+
 ### 자격증명 가져오기
 
 ```bash
